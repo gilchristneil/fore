@@ -1,0 +1,10 @@
+- If price above 200 moving average (hold alert) and bearish shark ended = send buy alert
+- If price above 200 moving average (hold alert) and bullish shark ended = do nothing
+- If price below 200 moving average (hold alert) and bearish shark ended alert = do nothing
+- if price below 200 moving average (hold alert) and bullish shark ended alert = send sell alert
+
+That's it! I guess there would be 4 webhooks in total:
+1. Price above 200MA
+2. Price below 200MA
+3. Bearish shark ended
+4. Bullish shark ended
